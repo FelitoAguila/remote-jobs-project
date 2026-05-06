@@ -1,10 +1,87 @@
-# Python-generated files
+# ==================== Python ====================
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 wheels/
-*.egg-info
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Virtual environments
+# ==================== Virtual Environments ====================
 .venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==================== Prefect ====================
+.prefect/
+prefect.db
+*.prefect
+
+# ==================== dlt & Data ====================
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+.dlt/
+dlt.log
+**/.dlt/secrets.toml
+**/.dlt/config.toml
+
+# ==================== Credentials & Secrets ====================
+*.env
+.env*
+credentials.json
+service_account.json
+*.key
+*.pem
+config.ini
+secrets.toml
+
+# ==================== Notebooks & Local ====================
+notebooks/*.ipynb
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==================== Local files ====================
+local_*.py
+run_*.py
+*.local.py
+
+# ==================== Logs & Temp ====================
+*.log
+logs/
+tmp/
+temp/
+
+# ==================== Editors & IDEs ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ==================== uv / Packaging ====================
+uv.lock
+# (mantengo pyproject.toml porque es importante)
+
+# ==================== Otros ====================
+remote_jobs.duckdb
