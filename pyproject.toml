@@ -5,8 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "prefect>=3.7.0",
+    "prefect[gcp]>=3.7.0",
     "dlt[bigquery]>=1.0",
-    "prefect-gcp>=0.6.2,<0.7",
     "google-cloud-bigquery",
 ]
