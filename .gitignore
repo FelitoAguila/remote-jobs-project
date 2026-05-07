@@ -79,9 +79,5 @@ temp/
 *~
 .DS_Store
 
-# ==================== uv / Packaging ====================
-uv.lock
-# (mantengo pyproject.toml porque es importante)
-
 # ==================== Otros ====================
 remote_jobs.duckdb
