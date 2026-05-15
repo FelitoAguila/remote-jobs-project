@@ -1,4 +1,4 @@
-### How to run flows on Prefect Managed infrastructure
+# How to run flows on Prefect Managed infrastructure
 
 Link to Prefect documentation: https://docs.prefect.io/v3/how-to-guides/deployment_infra/managed
 
